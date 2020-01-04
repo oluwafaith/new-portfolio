@@ -1,0 +1,33 @@
+@import url(./fonts.css);
+body {
+    margin: 0;
+    padding: 0;
+    background-color: aqua;
+}
+
+.rounded-circle {
+    width: 200px;
+    height: 200px;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 5%;
+    padding: 10px;
+}
+
+.info {
+    text-align: center;
+}
+
+h1 {
+    font-size: 75px;
+    font-family: arial, serif;
+    color: #f5f2d0;
+}
+
+h2 {
+    color: #FFA500;
+}
+
+.icon {
+    margin-left: 45%;
+}
