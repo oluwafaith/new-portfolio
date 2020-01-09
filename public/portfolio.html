@@ -13,35 +13,38 @@
 <body>
 
 
-    <!-- Create a portfolio page using HTML and CSS using what you have learned from the resources. 
-    Also, keep track of the changes made to this project using Git and host on your Github account. 
-This page should contain a landing page with your name, personal summary and why you applied to decagon.
- Then an about me with skills, qualifications, education, training, and experiences. 
- Then a contact me page where a user can file a form.  -->
+    <header class="header-area">
+        <div id="Header">
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top ">
+                <div class="container">
 
+                    <button class="navbar-toggler" data-toggle="collapse" data-target="#Navbar">
+                      <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <a class="navbar-brand" href="#">
+                        <h3>My Portfolio</h3>
+                    </a>
+                    <div class="collapse navbar-collapse" id="Navbar">
+                        <ul class="navbar-nav  ml-auto">
+                            <li class="nav-item ">
+                                <a class="nav-link" href="index.html">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="about.html">About</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="portfolio.html">Portfolio</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="contact.html">Contact Me</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
 
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="#">Faithy's</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                  <span class="navbar-toggler-icon"></span>
-                </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav">
-                <li class="nav-item active">
-                    <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="about.html">About</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="portfolio.html">Portfolio</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="contact.html">Contact Me</a>
-                </li>
-            </ul>
+            </nav>
         </div>
-    </nav>
+    </header>
     <!-- name -->
     <div class="landing">
         <div class="landingwrapper"></div>
@@ -106,7 +109,7 @@ This page should contain a landing page with your name, personal summary and why
     </ul>
 
     <h5><strong>Experience</strong></h5>
-    <table>
+    <table class="table table-responsive ml-4">
         <tr>
             <td>Union Bank Of Nigeria Plc</td>
             <td>Graduate Sales Executive</td>
@@ -221,9 +224,9 @@ This page should contain a landing page with your name, personal summary and why
             <button type="submit" class="btn btn-primary">Submit</button>
         </form>
 
+        <script src="../public/jquery-3.4.1.min.js"></script>
         <script src="../public/bootstrap.min.js"></script>
-        <script src="../jquery.min.js"></script>
-        <script src="./index.js"></script>
+        <script src="../index.js"></script>
 </body>
 
 </html>

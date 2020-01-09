@@ -2,7 +2,22 @@
 body {
     margin: 0;
     padding: 0;
-    background-color: aqua;
+    /* background-color: aqua; */
+}
+
+#Header a:hover {
+    color: orange;
+}
+
+.bg-image {
+    /* background-image: url(); */
+    background-image: url("../public/img/Contact-me-11-940x518.jpg");
+    background-color: #cccccc;
+    height: 700px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
 }
 
 .rounded-circle {

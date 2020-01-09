@@ -4,6 +4,10 @@ body {
     background-color: lightgrey;
 }
 
+#Header a:hover {
+    color: orange;
+}
+
 .info {
     margin-top: 5%;
     margin-left: 3%;
@@ -16,4 +20,8 @@ body {
     font-size: 25px;
     text-decoration: none;
     color: navy;
+}
+
+td {
+    padding: 10px
 }

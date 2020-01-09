@@ -9,64 +9,106 @@
 
 
     <link rel="stylesheet" href="../public/bootstrap.min.css">
+    <link rel="stylesheet" href="../public/styles.css">
     <link rel="stylesheet" href="..public/all.min.css">
 
-    <link rel="stylesheet" href="../public/style.css">
+
 
 </head>
 
 <body>
     <header class="header-area">
-        <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top ">
-            <a class="navbar-brand" href="#">My Portfolio</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse">
+        <div id="Header">
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top ">
+                <div class="container">
+
+                    <button class="navbar-toggler" data-toggle="collapse" data-target="#Navbar">
                       <span class="navbar-toggler-icon"></span>
                     </button>
-            <div class="collapse navbar-collapse" id="navbarCollapse">
-                <ul class="navbar-nav  ml-auto">
-                    <li class="nav-item ">
-                        <a class="nav-link" href="index.html">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="about.html">About</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="portfolio.html">Portfolio</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="contact.html">Contact Me</a>
-                    </li>
-                </ul>
-            </div>
-        </nav>
+                    <a class="navbar-brand" href="#">
+                        <h3>My Portfolio</h3>
+                    </a>
+                    <div class="collapse navbar-collapse" id="Navbar">
+                        <ul class="navbar-nav  ml-auto">
+                            <li class="nav-item ">
+                                <a class="nav-link" href="index.html">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="about.html">About</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="portfolio.html">Portfolio</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="contact.html">Contact Me</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
 
+            </nav>
+        </div>
     </header>
     <main>
-
-        <div class="image-area">
-            <span class="rounded-circle  ">
-                <img src="../public/img/IMG_20191106_152453_7.jpg" alt="faith" class="rounded-circle">
+        <div class="bg-image">
+            <div class="image-area">
+                <span class="rounded-circle  ">
+                <img src="../public/img/WhatsApp Image 2020-01-07 at 7.53.23 AM.jpeg" alt="faith" class="rounded-circle">
             </span>
-        </div>
-        <br>
-        <div class="info">
-            <h1> Faith Okpala </h1>
+            </div>
+            <br>
+            <div class="info">
+                <h1> Faith Okpala </h1>
 
-            <h2> Junior Software Engineer </h2>
-
+                <h2> Junior Software Engineer </h2>
+            </div>
         </div>
+
+
+        <div id="skills" class="mt-5">
+            <div class="container">
+                <span class="bg-primary text-white"> My Skills</span>
+                <hr class="bg-primary">
+                <div class="row">
+                    <div class="col">
+                        <div class="card bg-white">
+                            <h3 class="ml-3 my-3">HTML5</h3>
+                            <div class="progress mx-3">
+                                <div class="progress-bar" style="width:75%">75%</div>
+                            </div>
+                            <h3 class="ml-3 my-3">CSS 3</h3>
+                            <div class="progress mx-3">
+                                <div class="progress-bar" style="width:55%">55%</div>
+                            </div>
+                            <h3 class="ml-3 my-3">JAVASCRIPT</h3>
+                            <div class="progress mx-3">
+                                <div class="progress-bar" style="width:50%">50%</div>
+                            </div>
+                            <h3 class="ml-3 my-3">GIT</h3>
+                            <div class="progress mx-3">
+                                <div class="progress-bar" style="width:45%">45%</div>
+                            </div>
+                            <h3 class="ml-3 my-3">JQUERY</h3>
+                            <div class="progress mx-3">
+                                <div class="progress-bar" style="width:40%">40%</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </main>
+
+    <footer>
         <div class="icon">
             <img src="https://img.icons8.com/android/24/000000/filled-message.png">
             <img src="https://img.icons8.com/color/48/000000/facebook-new.png">
             <img src="https://img.icons8.com/color/48/000000/twitter.png">
         </div>
-
-    </main>
-    <script src="../public/jquery.min.js"></script>
-
+    </footer>
+    <script src="../public/jquery-3.4.1.min.js"></script>
     <script src="../public/bootstrap.min.js"></script>
-
-
     <script src="./index.js"></script>
 </body>
 
