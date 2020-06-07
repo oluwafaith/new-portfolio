@@ -9,6 +9,7 @@ $(document).ready(function() {
             url: "http://localhost:3000/portfolio",
 
             success: function(result) {
+
                 location.reload()
 
             },

@@ -16,7 +16,7 @@
 
 </head>
 
-<body>
+<body data-spy="scroll" data-target=".navbar">
     <header class="header-area">
         <div id="Header">
             <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top ">
@@ -26,21 +26,21 @@
                       <span class="navbar-toggler-icon"></span>
                     </button>
                     <a class="navbar-brand" href="#">
-                        <h3>My Portfolio</h3>
+                        <h3>Faithy</h3>
                     </a>
                     <div class="collapse navbar-collapse" id="Navbar">
                         <ul class="navbar-nav  ml-auto">
                             <li class="nav-item ">
-                                <a class="nav-link" href="index.html">Home</a>
+                                <a class="nav-link" href="#Home">Home</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="about.html">About</a>
+                                <a class="nav-link" href="#About">About</a>
                             </li>
+                            <!-- <li class="nav-item">
+                                <a class="nav-link" href="#portfolio">portfolio</a>
+                            </li> -->
                             <li class="nav-item">
-                                <a class="nav-link" href="portfolio.html">Portfolio</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="contact.html">Contact Me</a>
+                                <a class="nav-link" href="#contact">Contact Me</a>
                             </li>
                         </ul>
                     </div>
@@ -50,7 +50,8 @@
         </div>
     </header>
     <main>
-        <div class="bg-image">
+        <div class="bg-image" id="Home">
+
             <div class="image-area">
                 <span class="rounded-circle  ">
                 <img src="../public/img/WhatsApp Image 2020-01-07 at 7.53.23 AM.jpeg" alt="faith" class="rounded-circle">
@@ -65,32 +66,119 @@
         </div>
 
 
+        <div id="About">
+            <!-- <div id="About me" class="mt-5">
+                <div class="container">
+                    <span class="bg-primary text-white"> About Me</span>
+                    <hr class="bg-primary">
+                </div>
+            </div> -->
+            <!-- about me -->
+            <h4 class="section"> About me</h4>
+            <p>I am on a journey to become a world class full-stack software developer</p>
+            <h4 class="section"><strong>My personal summary</strong></h4>
+            <!-- personal summary -->
+            <p id="summary">To develop and excel in a stimulating and well structured environment that values diversity <br>and rewards teamwork,continuous learning and career development</p>
+
+
+
+
+            <h4 class="section"><strong>Why i joined Decagon</strong></h4>
+            <!-- why i applied to decagon -->
+            <p> I applied to decagon because i feel its the perfect opportunity for me to learn how to be a developer.</p>
+            <p>Having tried learning online and alone , decagon presented the best avenue for me to learn programming in fastest way </p>
+            <p> decagon is both perfect and the best </p>
+
+
+
+            <h4 class="section"><strong>Qualification And certification</strong></h4>
+            <ul>
+                <li>B.Sc Microbiology</li>
+                <li>H.S.E 1,2,3</li>
+                <li>W.A.S.S.C.E</li>
+                <li>Sololearn</li>
+
+            </ul>
+
+
+            <h4 class="section"><strong>Education</strong></h4>
+            <table>
+                <tr>
+                    <td>Obafemi Awolowo University</td>
+                    <td>B.sc Microbiology</td>
+                    <td>2011 - 2015</td>
+                </tr>
+                <tr>
+                    <td>Remade High School</td>
+                    <td>W.A.S.S.C.E</td>
+                    <td>2002 - 2008</td>
+                </tr>
+            </table>
+
+
+            <h4 class="section"><strong>Training</strong></h4>
+            <ul>
+                <li> Decagon institute</li>
+                <li> Andela Learning Community</li>
+                <li> HNG </li>
+                <li> Udacity</li>
+                <li> Sololearn</li>
+                <li>FreeCodeCamp</li>
+            </ul>
+
+            <h4 class="section"><strong>Experience</strong></h4>
+            <table>
+                <tr>
+                    <td>Union Bank Of Nigeria Plc</td>
+                    <td>Graduate Sales Executive</td>
+                    <td>Jan 2018 - dec 2019</td>
+                </tr>
+                <tr>
+                    <td>Deeper Christian Life Ministry</td>
+                    <td>Administrative Assistant</td>
+                    <td>May 2016 - April 2017</td>
+                </tr>
+                <tr>
+                    <td>Veeky And Veeky International School</td>
+                    <td>Chemistry And Mathematics Educator</td>
+                    <td>Sept 2015 -March 2016</td>
+                </tr>
+                <tr>
+                    <td>OAU ozonized water</td>
+                    <td>Assistant Quality Control Officer</td>
+                    <td>May 2014 - June 2014</td>
+                </tr>
+            </table>
+
+        </div>
+
         <div id="skills" class="mt-5">
+            <h4 class="section-2"><strong>Skills</strong></h4>
             <div class="container">
-                <span class="bg-primary text-white"> My Skills</span>
-                <hr class="bg-primary">
+                <!-- <span class="bg-primary text-white"> My Skills</span>
+                <hr class="bg-primary"> -->
                 <div class="row">
                     <div class="col">
                         <div class="card bg-white">
                             <h3 class="ml-3 my-3">HTML5</h3>
                             <div class="progress mx-3">
-                                <div class="progress-bar" style="width:75%">75%</div>
+                                <div class="progress-bar bg-dark" style="width:75%">75%</div>
                             </div>
                             <h3 class="ml-3 my-3">CSS 3</h3>
                             <div class="progress mx-3">
-                                <div class="progress-bar" style="width:55%">55%</div>
+                                <div class="progress-bar bg-dark" style="width:55%">55%</div>
                             </div>
                             <h3 class="ml-3 my-3">JAVASCRIPT</h3>
                             <div class="progress mx-3">
-                                <div class="progress-bar" style="width:50%">50%</div>
+                                <div class="progress-bar bg-dark" style="width:50%">50%</div>
                             </div>
                             <h3 class="ml-3 my-3">GIT</h3>
                             <div class="progress mx-3">
-                                <div class="progress-bar" style="width:45%">45%</div>
+                                <div class="progress-bar bg-dark" style="width:45%">45%</div>
                             </div>
                             <h3 class="ml-3 my-3">JQUERY</h3>
                             <div class="progress mx-3">
-                                <div class="progress-bar" style="width:40%">40%</div>
+                                <div class="progress-bar bg-dark" style="width:40%">40%</div>
                             </div>
                         </div>
                     </div>
@@ -98,7 +186,34 @@
             </div>
         </div>
 
+        </div>
+
+
+
     </main>
+    <h4 class="section-3"><strong>contact me</strong></h4>
+    <form class="form" id="contact" id="cont">
+        <div class="form-group">
+            <label for="name">Name</label>
+            <input type="text" class="form-control" id="name" aria-describedby="nameHelp">
+            <!-- <small id="messageHelp" class="form-text text-muted">We'll never share your email with anyone else.</small> -->
+        </div>
+        <div class="form-group">
+            <label for="exampleInputEmail1">Email address</label>
+            <input type="email" class="form-control" id="email" aria-describedby="emailHelp">
+            <!-- <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small> -->
+        </div>
+        <div class="form-group">
+            <label for="message">Message</label>
+            <input type="text" class="form-control" id="message" aria-describedby="messageHelp">
+            <!-- <small id="messageHelp" class="form-text text-muted">We'll never share your email with anyone else.</small> -->
+        </div>
+
+
+        <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+
+
 
     <footer>
         <div class="icon">
